@@ -1,24 +1,24 @@
-# 🛒 E-Commerce Revenue Analysis
+#  E-Commerce Revenue Analysis
 
 An exploratory and explanatory data analysis project investigating what drives revenue in a UK-based online retail store.
 
-## 📌 Project Overview
+##  Project Overview
 
 Using one year of real transaction data (Dec 2010 – Dec 2011), this project answers three key business questions about seasonality, geography, and customer purchasing behavior — with clean visualizations designed for a non-technical audience.
 
-## ❓ Key Questions
+##  Key Questions
 
 1. **Season** — Which months generate the most revenue? Is there a holiday effect?
 2. **Geography** — How dominant is the UK, and which other countries matter?
 3. **Behavior** — Do customers buy in bulk at low prices, or few items at high prices?
 
-## 📊 Key Findings
+##  Key Findings
 
-- 📈 Revenue peaks in **November at £1.16M** — nearly double the monthly average of £663K — driven by wholesalers stocking up ahead of the Christmas season
+-  Revenue peaks in **November at £1.16M** — nearly double the monthly average of £663K — driven by wholesalers stocking up ahead of the Christmas season
 - 🇬🇧 The **UK dominates** revenue, but several European countries show significant potential
-- 🛍️ Customer behavior shows a **bulk-buying pattern** at lower unit prices
+-  Customer behavior shows a **bulk-buying pattern** at lower unit prices
 
-## 📂 Dataset
+##  Dataset
 
 | Detail | Value |
 |--------|-------|
@@ -31,7 +31,7 @@ Using one year of real transaction data (Dec 2010 – Dec 2011), this project an
 
 **Cleaning steps:** Removed nulls, cancellations (InvoiceNo starting with 'C'), and negative quantities/prices.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
